@@ -1,0 +1,121 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.header-img {
+  border-radius: 20px;
+  -webkit-box-shadow: 1px 3px 56px 0px rgba(37, 79, 156, 1);
+  -moz-box-shadow: 1px 3px 56px 0px rgba(37, 79, 156, 1);
+  box-shadow: 1px 3px 56px 0px rgba(37, 79, 156, 1);
+  width: 250px;
+  height: 400px;
+  justify-content: flex-start;
+}
+.header-h1 {
+  font-family: "ubuntu";
+  font-size: 40px;
+  text-align: center;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+.header-p {
+  text-align: center;
+  width: 500px;
+  font-family: "jost";
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.flex {
+  display: flex;
+}
+.section-ul {
+  list-style: none;
+  display: flex;
+}
+.section-li:not(:last-child) {
+  margin-right: 100px;
+}
+.section-p {
+  width: 200px;
+  font-family: "jost";
+  font-size: 15px;
+  padding-bottom: 100px;
+}
+.section-h2 {
+  font-family: "jost";
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+.section-h2:hover {
+  color: cornflowerblue;
+}
+.section1-h3 {
+  color: cornflowerblue;
+  font-family: "ubuntu";
+  font-size: 30px;
+  text-align: center;
+}
+.section1-p {
+  width: 300px;
+  font-family: "ubuntu";
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.section1-p:not(:first-child) {
+  margin-left: 600px;
+}
+.section2-ul {
+  display: flex;
+  list-style: none;
+  font-family: "jost";
+  font-size: 15px;
+}
+.section2-h3 {
+  font-size: 30px;
+  color: cornflowerblue;
+  font-family: "ubuntu";
+  text-align: center;
+}
+.section2-p {
+  width: 250px;
+}
+.section2-li {
+  margin-left: 40px;
+  padding-top: 20px;
+}
+.footer {
+  font-family: "jost";
+  font-size: 15px;
+}
+.footer-p {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 50px;
+  font-size: 30px;
+}
+.footer-li {
+  padding-top: 10px;
+}
+.footer-ul {
+  list-style: none;
+}
